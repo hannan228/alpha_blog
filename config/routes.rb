@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   
   # resources :articles, only: [:show, :index, :new, :create, :update, :edit]
   resources :articles 
-  root "articles#index"
-  
+  root "pages#home"
 
 end
